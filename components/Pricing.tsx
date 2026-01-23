@@ -49,7 +49,7 @@ const pricingPlans = [
 
 const Pricing: React.FC = () => {
   return (
-    <section id="pricing" className="py-32 bg-[#02040a] relative overflow-hidden">
+    <section id="pricing" className="py-32 bg-[#02040a] relative overflow-hidden overflow-x-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-white/[0.02] rounded-full blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">

@@ -68,7 +68,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="relative min-h-screen bg-[#02040a] text-white selection:bg-[#BFF549] selection:text-black font-sans">
+    <div className="relative min-h-screen bg-[#02040a] text-white selection:bg-[#BFF549] selection:text-black font-sans overflow-x-hidden">
       <Navbar
         isScrolled={isScrolled}
         userId={userId}

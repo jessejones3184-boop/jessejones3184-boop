@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Features: React.FC = () => {
   return (
-    <section id="expertise" className="py-32 bg-[#02040a] relative overflow-hidden">
+    <section id="expertise" className="py-32 bg-[#02040a] relative overflow-hidden overflow-x-hidden">
       {/* Background Gradients */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#BFF549]/5 rounded-full blur-[120px] pointer-events-none" />
