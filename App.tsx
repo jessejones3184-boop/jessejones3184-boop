@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import SocialProof from './components/SocialProof';
@@ -58,7 +59,12 @@ const App: React.FC = () => {
 
   // If user wants to see dashboard
   if (showDashboard && userId) {
-    return <Dashboard userId={userId} onLogout={handleLogout} />;
+    return (
+      <>
+        <Dashboard userId={userId} onLogout={handleLogout} />
+        <Analytics />
+      </>
+    );
   }
 
   return (
@@ -84,6 +90,7 @@ const App: React.FC = () => {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 };
