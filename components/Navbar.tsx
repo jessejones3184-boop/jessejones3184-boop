@@ -34,11 +34,11 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled, userId, onLoginClick, onDas
               <Zap className={`text-black transition-all ${isScrolled ? 'w-4 h-4' : 'w-6 h-6'}`} fill="currentColor" />
             </div>
             <span className={`font-black tracking-tighter text-white transition-all ${isScrolled ? 'text-lg' : 'text-xl'
-              }`}>VOLTFLOW</span>
+              }`}>CONVRIX</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            {['Expertise', 'Process', 'Audit'].map((item) => (
+            {['Features', 'Pricing', 'Audit'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled, userId, onLoginClick, onDas
 
             <button className={`bg-white text-black font-bold text-sm rounded-full hover:bg-[#BFF549] transition-all transform active:scale-95 ${isScrolled ? 'px-4 py-2' : 'px-6 py-2.5'
               }`}>
-              Book Strategy
+              Start Free Trial
             </button>
           </div>
 
@@ -103,7 +103,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled, userId, onLoginClick, onDas
             className="fixed inset-0 z-40 bg-black/95 backdrop-blur-xl md:hidden"
           >
             <div className="flex flex-col items-center justify-center h-full gap-8 px-6">
-              {['Expertise', 'Process', 'Audit'].map((item, index) => (
+              {['Features', 'Pricing', 'Audit'].map((item, index) => (
                 <motion.a
                   key={item}
                   initial={{ opacity: 0, y: 20 }}
@@ -152,7 +152,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled, userId, onLoginClick, onDas
                 onClick={closeMobileMenu}
                 className="mt-4 px-10 py-4 bg-[#BFF549] text-black font-bold text-lg rounded-full hover:bg-white transition-all"
               >
-                Book Strategy
+                Start Free Trial
               </motion.button>
             </div>
           </motion.div>

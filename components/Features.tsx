@@ -26,8 +26,8 @@ const Features: React.FC = () => {
               transition={{ delay: 0.1 }}
               className="text-4xl md:text-7xl font-black tracking-tighter text-white"
             >
-              SCIENTIFIC <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">PRECISION.</span>
+              COMPREHENSIVE <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">ANALYSIS.</span>
             </motion.h2>
           </div>
           <motion.p
@@ -36,7 +36,7 @@ const Features: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-xl text-[#99A1AF] max-w-lg font-light leading-relaxed"
           >
-            We adhere to a rigorous, data-backed design methodology. No guesswork, just results.
+            We scan your page across key factors: design, copy, user experience, and trust signals.
           </motion.p>
         </div>
 
@@ -52,9 +52,9 @@ const Features: React.FC = () => {
               <div className="w-16 h-16 bg-[#BFF549] rounded-2xl flex items-center justify-center mb-8 rotate-3 group-hover:rotate-12 transition-transform duration-500">
                 <BarChart3 className="w-8 h-8 text-black" />
               </div>
-              <h3 className="text-4xl font-bold mb-6">Velocity-First <br />Architecture</h3>
+              <h3 className="text-4xl font-bold mb-6">Actionable <br />Recommendations</h3>
               <p className="text-lg text-[#99A1AF] max-w-md">
-                We engineer sites that load in sub-100ms. Speed isn't just a feature; it's the foundation of conversion. Google loves it, users demand it.
+                Each insight includes clear, actionable recommendations designed to improve performance and increase conversions. Make targeted improvements that lead to more sales.
               </p>
             </div>
 
@@ -83,9 +83,9 @@ const Features: React.FC = () => {
               <ArrowUpRight className="w-8 h-8 text-[#BFF549]" />
             </div>
             <Layout className="w-10 h-10 text-white mb-6" />
-            <h3 className="text-2xl font-bold mb-3">Neuro-Design</h3>
+            <h3 className="text-2xl font-bold mb-3">Copy & UX</h3>
             <p className="text-sm text-[#99A1AF]">
-              Eye-tracking data guides every pixel placement.
+              We analyze your copy and user flow to remove friction.
             </p>
           </motion.div>
 
@@ -96,9 +96,9 @@ const Features: React.FC = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
             <Target className="w-10 h-10 text-purple-400 mb-6" />
-            <h3 className="text-2xl font-bold mb-3">Conversion CRO</h3>
+            <h3 className="text-2xl font-bold mb-3">Trust Signals</h3>
             <p className="text-sm text-[#99A1AF]">
-              Frictionless funnels that turn visitors into revenue.
+              Ensure users trust your brand enough to purchase.
             </p>
           </motion.div>
         </div>

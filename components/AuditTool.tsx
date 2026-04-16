@@ -40,11 +40,11 @@ const AuditTool: React.FC = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-5xl md:text-[84px] font-black leading-[0.9] tracking-tighter mb-8 uppercase">
-                FREE AI <span className="text-transparent border-white/20 [-webkit-text-stroke:1px_white]">CONVERSION</span> <br />
-                <span className="text-[#BFF549]">CRITIQUE</span>
+                AI WEBSITE <span className="text-transparent border-white/20 [-webkit-text-stroke:1px_white]">ANALYSIS</span> <br />
+                <span className="text-[#BFF549]">TOOL</span>
               </h2>
               <p className="text-xl md:text-2xl text-[#99A1AF] font-light max-w-3xl mx-auto">
-                Paste your URL or explain your funnel. Our AI CRO expert identifies profit leaks in under 10 seconds.
+                Simply enter a URL, and our platform scans the page across key conversion factors to highlight critical issues and missed opportunities.
               </p>
             </motion.div>
           </div>
@@ -57,7 +57,7 @@ const AuditTool: React.FC = () => {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ex: My Shopify store landing page isn't converting traffic..."
+                placeholder="Ex: https://myshopify.com/product-page"
                 className="flex-1 bg-transparent border-none rounded-[32px] px-8 py-6 text-white placeholder:text-white/30 focus:ring-0 outline-none text-xl focus:placeholder:text-white/50 transition-all"
               />
               <button

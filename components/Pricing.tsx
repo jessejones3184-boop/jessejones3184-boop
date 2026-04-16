@@ -6,41 +6,38 @@ import { Zap, Check } from 'lucide-react';
 const pricingPlans = [
   {
     name: "Starter",
-    subtitle: "For emerging brands",
-    price: "4,500",
+    subtitle: "For small businesses",
+    price: "29",
     features: [
-      "Custom Landing Page Design",
-      "Mobile-First Optimization",
-      "Basic SEO Implementation",
-      "5-Day Turnaround"
+      "10 AI Audits / Month",
+      "Basic UX Analysis",
+      "Standard Support"
     ],
     highlight: false,
     color: "bg-blue-600"
   },
   {
-    name: "Growth",
+    name: "Pro",
     subtitle: "Most popular choice",
-    price: "8,500",
+    price: "79",
     features: [
-      "Full 5-Page Website",
-      "Advanced CRO Strategy",
-      "CMS Integration",
-      "Interactive Motion Effects",
-      "Copywriting Assistance"
+      "Unlimited AI Audits",
+      "Deep Copy & Trust Analysis",
+      "PDF Report Export",
+      "Actionable Step-by-Step Plans"
     ],
     highlight: true,
     color: "bg-[#BFF549]"
   },
   {
-    name: "Enterprise",
-    subtitle: "For market leaders",
-    price: "15,000+",
+    name: "Agency",
+    subtitle: "For design agencies",
+    price: "199",
     features: [
-      "Complete Design System",
-      "Headless Architecture",
-      "A/B Testing Setup",
+      "White-labeled Reports",
+      "API Access",
       "Priority 24/7 Support",
-      "Monthly Conversion Audits"
+      "Custom Branding"
     ],
     highlight: false,
     color: "bg-purple-600"

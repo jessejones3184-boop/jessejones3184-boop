@@ -121,22 +121,22 @@ const Hero: React.FC = () => {
           </span>
 
           <h1 className="text-6xl md:text-[120px] font-black leading-[0.85] tracking-tighter mb-8 text-white mix-blend-difference">
-            WE BUILD <br />
+            WHY AREN'T YOU <br />
             <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50">
-              GORGEOUS
+              CONVERTING?
             </span> <br />
-            <span className="text-[#BFF549]">WEBSITES.</span>
+            <span className="text-[#BFF549]">FIND OUT INSTANTLY.</span>
           </h1>
 
           <p className="text-lg md:text-2xl text-[#99A1AF] max-w-2xl mx-auto mb-12 font-light leading-relaxed tracking-tight">
-            Elevating digital presence through scientific design. We don't just build sites; we engineer visual identities that convert.
+            Convrix is an AI-powered website analysis tool that helps businesses identify why their site isn't converting. Replace guesswork with precise, data-driven feedback.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <div className="relative group w-auto">
               <div className="absolute inset-0 bg-[#BFF549] rounded-full blur-[20px] opacity-40 group-hover:opacity-60 transition-all duration-300 transform group-hover:scale-110" />
               <button className="relative px-12 py-6 bg-[#BFF549] text-black font-black text-xl rounded-full overflow-hidden transition-all hover:scale-[1.02] active:scale-95 z-10 flex items-center gap-3 whitespace-nowrap">
-                Start Project
+                Analyze My Website
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
